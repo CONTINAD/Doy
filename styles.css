@@ -726,6 +726,20 @@ body {
     animation: float 6s ease-in-out infinite;
 }
 
+/* Chart Section */
+.chart-section {
+    padding: 100px 0;
+    background: var(--bg-card);
+}
+
+.chart-container {
+    margin-top: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgba(212, 165, 116, 0.2);
+    box-shadow: var(--shadow-glow);
+}
+
 /* Roadmap Section */
 .roadmap {
     padding: 100px 0;
