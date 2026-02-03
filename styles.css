@@ -732,6 +732,10 @@ body {
     background: var(--bg-card);
 }
 
+.chart-section .section-title {
+    padding-right: 10px;
+}
+
 .chart-container {
     margin-top: 40px;
     border-radius: 20px;
