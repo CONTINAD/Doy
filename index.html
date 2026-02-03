@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$DOY - The Meme Coin That Grips</title>
+    <meta name="description" content="$DOY - The meme coin that grips harder than diamond hands. Join the movement, much wow, very gains.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="doy-main.jpg" alt="Doy" class="logo-img">
+                <span>$DOY</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <a href="#buy" class="btn-buy">Buy Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="$DOY">$DOY</h1>
+                <p class="tagline">The Meme Coin That <span class="highlight">GRIPS</span></p>
+                <p class="subtitle">Much wow. Very hands. Such gains. To the moon we go! 🚀</p>
+                <div class="hero-buttons">
+                    <a href="#buy" class="btn btn-primary">
+                        <span>Buy $DOY</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="contract-address">
+                    <span class="label">Contract Address:</span>
+                    <span class="address" id="contract">Coming Soon...</span>
+                    <button class="copy-btn" onclick="copyContract()">📋</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="doy-main.jpg" alt="Doy Mascot" class="floating">
+                <div class="glow-ring"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="doy-pointing.png" alt="Doy Pointing" class="tilt-on-hover">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">What is <span class="gradient-text">$DOY?</span></h2>
+                    <p class="about-text">
+                        Born from the depths of meme culture, <strong>$DOY</strong> is the doge with hands that grip harder than your diamond hands during a dip!
+                    </p>
+                    <p class="about-text">
+                        We're not just another meme coin. We're a movement. A community of believers who know that the best things in life come with a grin and a thumbs up.
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">💎</div>
+                            <div class="feature-text">
+                                <h4>Diamond Grip</h4>
+                                <p>Hands that never let go</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🚀</div>
+                            <div class="feature-text">
+                                <h4>Moon Mission</h4>
+                                <p>Only way is up</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🤝</div>
+                            <div class="feature-text">
+                                <h4>Community First</h4>
+                                <p>By the people, for the doge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <div class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>🐕 MUCH WOW</span>
+                <span>💰 VERY GAINS</span>
+                <span>🚀 TO THE MOON</span>
+                <span>💎 DIAMOND HANDS</span>
+                <span>🔥 SUCH PUMP</span>
+                <span>✨ VERY CRYPTO</span>
+                <span>🐕 MUCH WOW</span>
+                <span>💰 VERY GAINS</span>
+                <span>🚀 TO THE MOON</span>
+                <span>💎 DIAMOND HANDS</span>
+                <span>🔥 SUCH PUMP</span>
+                <span>✨ VERY CRYPTO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <div class="container">
+            <h2 class="section-title center">
+                <span class="gradient-text">Tokenomics</span>
+            </h2>
+            <p class="section-subtitle">Simple. Fair. Based.</p>
+            
+            <div class="tokenomics-grid">
+                <div class="token-card">
+                    <div class="token-icon">📊</div>
+                    <h3>Total Supply</h3>
+                    <p class="token-value">1,000,000,000</p>
+                    <span class="token-label">$DOY</span>
+                </div>
+                <div class="token-card featured">
+                    <div class="token-icon">🔥</div>
+                    <h3>Burned</h3>
+                    <p class="token-value">0%</p>
+                    <span class="token-label">Tax</span>
+                </div>
+                <div class="token-card">
+                    <div class="token-icon">🔓</div>
+                    <h3>Liquidity</h3>
+                    <p class="token-value">100%</p>
+                    <span class="token-label">Locked</span>
+                </div>
+                <div class="token-card">
+                    <div class="token-icon">✅</div>
+                    <h3>Contract</h3>
+                    <p class="token-value">Renounced</p>
+                    <span class="token-label">Safe</span>
+                </div>
+            </div>
+
+            <div class="coin-display">
+                <img src="doy-coin.png" alt="Doy with Coin" class="coin-img floating-slow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <h2 class="section-title center">
+                <span class="gradient-text">Roadmap</span>
+            </h2>
+            <p class="section-subtitle">The Path to the Moon 🌙</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>Phase 1: Launch</h3>
+                        <ul>
+                            <li>✅ Website Launch</li>
+                            <li>⏳ Token Launch</li>
+                            <li>⏳ Community Building</li>
+                            <li>⏳ Social Media Push</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>Phase 2: Growth</h3>
+                        <ul>
+                            <li>⏳ 1000 Holders</li>
+                            <li>⏳ CoinGecko Listing</li>
+                            <li>⏳ CMC Listing</li>
+                            <li>⏳ Influencer Partnerships</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>Phase 3: Expansion</h3>
+                        <ul>
+                            <li>⏳ CEX Listings</li>
+                            <li>⏳ Merch Store</li>
+                            <li>⏳ NFT Collection</li>
+                            <li>⏳ Global Domination</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">🌙</div>
+                    <div class="timeline-content">
+                        <h3>Phase 4: Moon</h3>
+                        <ul>
+                            <li>⏳ 100M Market Cap</li>
+                            <li>⏳ Tier 1 Exchange</li>
+                            <li>⏳ Worldwide Recognition</li>
+                            <li>⏳ Much Wow Achieved</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rocket-display">
+                <img src="doy-rocket.png" alt="Doy on Rocket" class="rocket-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community" id="community">
+        <div class="container">
+            <h2 class="section-title center">
+                <span class="gradient-text">Join the Pack</span>
+            </h2>
+            <p class="section-subtitle">Become part of the $DOY community</p>
+
+            <div class="social-grid">
+                <a href="#" class="social-card twitter">
+                    <div class="social-icon">𝕏</div>
+                    <span>Twitter</span>
+                    <div class="social-hover">Follow Us</div>
+                </a>
+                <a href="#" class="social-card telegram">
+                    <div class="social-icon">✈️</div>
+                    <span>Telegram</span>
+                    <div class="social-hover">Join Chat</div>
+                </a>
+                <a href="#" class="social-card dex">
+                    <div class="social-icon">📈</div>
+                    <span>DexScreener</span>
+                    <div class="social-hover">View Chart</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Section -->
+    <section class="buy-section" id="buy">
+        <div class="container">
+            <div class="buy-content">
+                <h2>Ready to <span class="gradient-text">GRIP?</span></h2>
+                <p>Get your $DOY before we moon!</p>
+                <div class="buy-buttons">
+                    <a href="#" class="btn btn-primary large">
+                        <span>Buy on Pump.fun</span>
+                    </a>
+                    <a href="#" class="btn btn-secondary large">
+                        <span>Buy on Raydium</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="doy-main.jpg" alt="Doy">
+                    <span>$DOY</span>
+                </div>
+                <p class="disclaimer">
+                    $DOY is a meme coin with no intrinsic value or expectation of financial return. 
+                    This is not financial advice. DYOR. Much risk, very volatile.
+                </p>
+                <div class="footer-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">DexScreener</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 $DOY. All rights reserved. Much love. 🐕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
